@@ -1,0 +1,31 @@
+spring: 
+   profiles: 
+      active: dev
+---
+server: 
+   port: 8010
+
+spring: 
+   profiles: dev
+   
+---
+server:
+   port: 8011
+
+spring:
+   profiles: prod 
+
+---
+person: 
+    name: lizhe
+    age: 28
+    boss: false
+    birth: 1993/01/13
+    maps: {k1:v1,k2:v2}
+    list:
+     - darry
+     - suwent
+     - aline
+    dog:
+      name: wangcai
+      age: 3
