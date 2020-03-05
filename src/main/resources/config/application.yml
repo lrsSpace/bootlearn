@@ -1,7 +1,21 @@
 spring: 
    profiles: 
       active: prod
-      
+
+#日志级别
+logging: 
+   level: 
+      com: 
+         lrs: trace
+#日志文件         
+   file: springboot.log      
+   pattern: 
+      console: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n'
+      file: '%d{yyyy-MM-dd HH:mm:ss.SSS} ===== [%thread] %-5level %logger{50} - %msg%n'
+   
+#日志路径
+#logging: SSSS
+#   path: 
 #配置访问路径
 server: 
    servlet: 
