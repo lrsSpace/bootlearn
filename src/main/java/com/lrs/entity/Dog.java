@@ -1,8 +1,8 @@
 package com.lrs.entity;
 
-import lombok.Data;
+//import lombok.Data;
 
-@Data
+//@Data
 public class Dog {
 
 	private String name;

@@ -7,7 +7,7 @@ import java.util.Map;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-import lombok.Data;
+//import lombok.Data;
 
 /**
  * 将配置文件中配置的每一个属性值，映射到这个组件中
@@ -18,7 +18,7 @@ import lombok.Data;
  * @author lizhe
  *
  */
-@Data
+//@Data
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {

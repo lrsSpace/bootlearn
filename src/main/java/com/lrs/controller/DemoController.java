@@ -20,4 +20,9 @@ public class DemoController {
     public Object hello(){
         return person;
     }
+    @RequestMapping("/success")
+    public Object success(){
+        //classpath://templates/success.html
+        return "success";
+    }
 }
